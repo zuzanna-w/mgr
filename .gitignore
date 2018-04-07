@@ -1,0 +1,48 @@
+target/
+
+#intellij
+.idea
+*.iml
+
+#json data
+*.json
+
+#eclipse
+.buildpath
+.classpath
+.settings
+.project
+
+#netbeans
+nbactions.xml
+nb-configuration.xml
+
+#os x temporary files
+.DS_Store
+*.swp
+*.lock
+/profile
+
+*.log
+
+#sublime
+*.sublime-*
+
+#git itself
+.gitconfig
+
+#h2 database files
+*.db
+
+/test
+/storm.trace.db.old
+/nautiqus/target/
+
+#lucene index files
+lucene/
+
+#spring boot temp dir
+/out
+
+#docker
+.testcontainers*
